@@ -110,12 +110,6 @@
     "cache_file": {
       "enabled": true,
       "store_rdrc": true
-    },
-    "clash_api": {
-      "external_controller": "127.0.0.1:9090",
-      "external_ui": "Dashboard",
-      "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/gh-pages.zip",
-      "external_ui_download_detour": "🎛️"
     }
   },
   "inbounds": [
@@ -134,13 +128,6 @@
           "server_port": 8080
         }
       },
-      "sniff": true
-    },
-    {
-      "type": "mixed",
-      "tag": "mixed-in",
-      "listen": "127.0.0.1",
-      "listen_port": 8080,
       "sniff": true
     },
     {
