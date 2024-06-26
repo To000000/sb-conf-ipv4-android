@@ -7,7 +7,7 @@
         "tag": "dns_proxy",
         "address": "tls://8.8.8.8",
         "detour": "🎛️",
-        "client_subnet": "62.204.54.173"
+        "client_subnet": "62.204.54.1"
       },
       {
         "tag": "dns_direct",
