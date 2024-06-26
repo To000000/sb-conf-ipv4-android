@@ -114,16 +114,16 @@
     "final": "🎛️",
     "auto_detect_interface": true
   },
+  "ntp": {
+    "enabled": true,
+    "server": "ntp.tencent.com",
+    "detour": "direct"
+  },
   "experimental": {
     "cache_file": {
       "enabled": true,
       "store_rdrc": true
     }
-  },
-  "ntp": {
-    "enabled": true,
-    "server": "ntp.tencent.com",
-    "detour": "direct"
   },
   "inbounds": [
     {
@@ -159,8 +159,7 @@
         "📡",
         "🛰"
       ],
-      "default": "📡",
-      "interrupt_exist_connections": true
+      "default": "📡"
     },
     {
       "type": "urltest",
