@@ -13,7 +13,7 @@
         "tag": "dns_direct",
         "address": "tls://1.12.12.12",
         "detour": "direct",
-        "client_subnet": "1.12.12.12"
+        "client_subnet": "1.12.12.1"
       },
       {
         "tag": "dns_block",
@@ -48,7 +48,7 @@
           "ip-cn"
         ],
         "server": "dns_proxy",
-        "client_subnet": "1.12.12.12",
+        "client_subnet": "1.12.12.1",
         "rewrite_ttl": 64
       }
     ],
